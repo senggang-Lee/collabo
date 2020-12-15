@@ -38,6 +38,21 @@ header nav a {
     margin: 0 10px;
 }
 
+#container {
+    display: flex;
+    width: 1040px;
+    justify-content: center;
+    color: black;
+    font-size: 19px;
+}
+
+.box {
+    height: 200px;
+    width: 300px;
+    padding: 0 20px;
+    flex-grow: 1;
+}
+
 footer {
     background-color: #5abeff;
     color: black;
