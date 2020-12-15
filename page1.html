@@ -23,6 +23,9 @@
     <main>
         <div class="inner-container">
             <div id="container"></div>
+            <div id="recommend">
+                <img src="">
+            </div>
         </div>
     </main>
     <footer>
@@ -30,39 +33,56 @@
             <br>메일 daehongdan7@gmail.com 전화 02-123-4567</p>
     </footer>
     <script>
-        window.onload = function() {
-            var data = [{
-                "img": "배움의 원칙",
-                "content": "연극 ooo",
-                "line": "common"
-            }, {
-                "img": "배움의 원칙",
-                "content": "연극 ooo",
-                "line": "common"
-            }, {
-                "img": "배움의 원칙",
-                "content": "연극 ooo",
-                "line": "last"
-            }]
+        //         function convertToDataURLviaCanvas(url, callback, outputFormat) {
+        //             var img = new Image();
+        //             img.crossOrigin = 'Anonymous';
+        //             img.onload = function() {
+        //                 var canvas = document.createElement('CANVAS');
+        //                 var ctx = canvas.getContext('2d');
+        //                 var dataURL;
+        //                 canvas.height = this.height;
+        //                 canvas.width = this.width;
+        //                 ctx.drawImage(this, 0, 0);
+        //                 dataURL = canvas.toDataURL(outputFormat);
+        //                 callback(dataURL);
+        //                 canvas = null;
+        //             };
+        //             img.src = url;
+        //         }
+        //         convertToDataURLviaCanvas('이미지/스크린샷 2020-12-15 오전 11.29.03.png', function(base64Img) {});
+        //         window.onload = function() {
+        //             var data = [{
+        //                 "main": "이미지/스크린샷 2020-12-15 오전 11.29.03.png",
+        //                 "content": "연극 ooo",
+        //                 "line": "common"
+        //             }, {
+        //                 "main": "배움의 원칙",
+        //                 "content": "연극 ooo",
+        //                 "line": "common"
+        //             }, {
+        //                 "main": "배움의 원칙",
+        //                 "content": "연극 ooo",
+        //                 "line": "last"
+        //             }]
 
-            for (var i in data) {
-                var singleData = data[i]
-                console.log(singleData)
-                var element = document.createElement('div')
-                var img = document.createElement('p')
-                var content = document.createElement('p')
+        //             for (var i in data) {
+        //                 var singleData = data[i]
+        //                 console.log(singleData)
+        //                 var element = document.createElement('div')
+        //                 var main = document.createElement('p')
+        //                 var content = document.createElement('p')
 
-                img.innerText = singleData.img
-                content.innerText = singleData.content
+        //                 main.innerText = singleData.main
+        //                 content.innerText = singleData.content
 
-                element.appendChild(img)
-                element.appendChild(content)
-                element.classList.add('box')
-                element.classList.add(singleData["line"])
+        //                 element.appendChild(main)
+        //                 element.appendChild(content)
+        //                 element.classList.add('box')
+        //                 element.classList.add(singleData["line"])
 
-                document.getElementById('container').appendChild(element)
-            }
-        }
+        //                 document.getElementById('container').appendChild(element)
+        //             }
+        //         }
     </script>
 </body>
 
