@@ -65,3 +65,18 @@ footer {
     padding: 10px 0;
     margin-bottom: 0px;
 }
+#명소{
+    background-color: gray;
+}
+.title{
+    background-color: #5abeff;
+    font-size:30px;
+}
+.마로니에{
+    background-color: #64AAFF;
+  height:90px;
+    width: 90px;
+    text-align: center;
+    line-height: 575%;
+    
+}
