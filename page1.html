@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+
+<body>
+    <header>
+        <div class="start">
+            <p>
+                대홍단
+            </p>
+            <nav>
+                <a>연극 페이지</a>
+                <a>팀 소개</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="inner-container">
+            <div id="container"></div>
+    </main>
+    <footer>
+        <p>Team.대홍단 주소 [03086] 서울특별시 종로구 대학로 116 4층 (공공일호)
+            <br>메일 daehongdan7@gmail.com 전화 02-123-4567</p>
+    </footer>
+    <script>
+        window.onload = function() {
+            var data = [{
+                "img": "배움의 원칙",
+                "content": "연극 ooo"
+            }, {
+                "img": "배움의 원칙",
+                "content": "연극 ooo"
+            }, {
+                "img": "배움의 원칙",
+                "content": "연극 ooo"
+            }]
+
+            for (var i in data) {
+                var singleData = data[i]
+                console.log(singleData)
+                var element = document.createElement('div')
+                var img = document.createElement('p')
+                var content = document.createElement('p')
+
+                img.innerText = singleData.img
+                content.innerText = singleData.content
+
+                element.appendChild(img)
+                element.appendChild(content)
+                element.classList.add('box')
+
+                document.getElementById('container').appendChild(element)
+            }
+        }
+    </script>
+</body>
+
+</html>
