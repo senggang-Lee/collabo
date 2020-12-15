@@ -22,7 +22,7 @@ header {
 header p {
     font-size: 40px;
     position: absolute;
-    line-height: 20px;
+    line-height: 50%;
     margin-left: 40px;
 }
 
@@ -31,7 +31,7 @@ header nav {
     color: black;
     position: absolute;
     left: 180px;
-    line-height: 100px;
+    line-height: 500%;
 }
 
 header nav a {
@@ -40,17 +40,20 @@ header nav a {
 
 #container {
     display: flex;
-    width: 1040px;
     justify-content: center;
     color: black;
-    font-size: 19px;
+    font-size: 15px;
 }
 
 .box {
-    height: 200px;
-    width: 300px;
-    padding: 0 20px;
+    height: auto;
+    width: 346px;
+    margin: 10px;
     flex-grow: 1;
+}
+
+.common {
+    border-right: solid 1px gray;
 }
 
 footer {
@@ -58,6 +61,7 @@ footer {
     color: black;
     font-size: 12px;
     text-align: center;
-    padding: 30px 0;
+    line-height: 150%;
+    padding: 10px 0;
     margin-bottom: 0px;
 }

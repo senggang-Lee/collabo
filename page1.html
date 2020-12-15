@@ -23,6 +23,7 @@
     <main>
         <div class="inner-container">
             <div id="container"></div>
+        </div>
     </main>
     <footer>
         <p>Team.대홍단 주소 [03086] 서울특별시 종로구 대학로 116 4층 (공공일호)
@@ -32,13 +33,16 @@
         window.onload = function() {
             var data = [{
                 "img": "배움의 원칙",
-                "content": "연극 ooo"
+                "content": "연극 ooo",
+                "line": "common"
             }, {
                 "img": "배움의 원칙",
-                "content": "연극 ooo"
+                "content": "연극 ooo",
+                "line": "common"
             }, {
                 "img": "배움의 원칙",
-                "content": "연극 ooo"
+                "content": "연극 ooo",
+                "line": "last"
             }]
 
             for (var i in data) {
@@ -54,6 +58,7 @@
                 element.appendChild(img)
                 element.appendChild(content)
                 element.classList.add('box')
+                element.classList.add(singleData["line"])
 
                 document.getElementById('container').appendChild(element)
             }
