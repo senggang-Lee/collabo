@@ -22,7 +22,7 @@ header {
 header p {
     font-size: 40px;
     position: absolute;
-    line-height: 20px;
+    line-height: 50%;
     margin-left: 40px;
 }
 
@@ -31,11 +31,29 @@ header nav {
     color: black;
     position: absolute;
     left: 180px;
-    line-height: 100px;
+    line-height: 500%;
 }
 
 header nav a {
     margin: 0 10px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+}
+
+.box {
+    height: auto;
+    width: 346px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.common {
+    border-right: solid 1px gray;
 }
 
 footer {
@@ -43,6 +61,22 @@ footer {
     color: black;
     font-size: 12px;
     text-align: center;
-    padding: 30px 0;
+    line-height: 150%;
+    padding: 10px 0;
     margin-bottom: 0px;
+}
+#명소{
+    background-color: gray;
+}
+.title{
+    background-color: #5abeff;
+    font-size:30px;
+}
+.마로니에{
+    background-color: #64AAFF;
+  height:90px;
+    width: 90px;
+    text-align: center;
+    line-height: 575%;
+    
 }

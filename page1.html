@@ -15,18 +15,86 @@
                 대홍단
             </p>
             <nav>
-                <a href="">연극 페이지</a>
+                <a>연극 페이지</a>
                 <a>팀 소개</a>
             </nav>
         </div>
     </header>
     <main>
+        <div class="inner-container">
+            <div id="container"></div>
+            <div id="recommend">
+                <img src="">
+            </div>
+        </div>
+        <div id="명소"> 
+            <p class="title">명소 추천 3</p>
+            <p class="마로니에">마로니에공원</p>
+            <p class="낙산">낙산공원</p>
+            <p class="이화">이화마을</p>
+            <img src = "이미지/마로니에공원.png" class="마로니에공원"></img>
+            <img src = "이미지/낙산공원.png" class="낙산공원"></img>
+            <img src = "이미지/이화마을.png" class="이화마을"></img>
 
+
+        </div>
     </main>
     <footer>
         <p>Team.대홍단 주소 [03086] 서울특별시 종로구 대학로 116 4층 (공공일호)
             <br>메일 daehongdan7@gmail.com 전화 02-123-4567</p>
     </footer>
+    <script>
+        //         function convertToDataURLviaCanvas(url, callback, outputFormat) {
+        //             var img = new Image();
+        //             img.crossOrigin = 'Anonymous';
+        //             img.onload = function() {
+        //                 var canvas = document.createElement('CANVAS');
+        //                 var ctx = canvas.getContext('2d');
+        //                 var dataURL;
+        //                 canvas.height = this.height;
+        //                 canvas.width = this.width;
+        //                 ctx.drawImage(this, 0, 0);
+        //                 dataURL = canvas.toDataURL(outputFormat);
+        //                 callback(dataURL);
+        //                 canvas = null;
+        //             };
+        //             img.src = url;
+        //         }
+        //         convertToDataURLviaCanvas('이미지/스크린샷 2020-12-15 오전 11.29.03.png', function(base64Img) {});
+        //         window.onload = function() {
+        //             var data = [{
+        //                 "main": "이미지/스크린샷 2020-12-15 오전 11.29.03.png",
+        //                 "content": "연극 ooo",
+        //                 "line": "common"
+        //             }, {
+        //                 "main": "배움의 원칙",
+        //                 "content": "연극 ooo",
+        //                 "line": "common"
+        //             }, {
+        //                 "main": "배움의 원칙",
+        //                 "content": "연극 ooo",
+        //                 "line": "last"
+        //             }]
+
+        //             for (var i in data) {
+        //                 var singleData = data[i]
+        //                 console.log(singleData)
+        //                 var element = document.createElement('div')
+        //                 var main = document.createElement('p')
+        //                 var content = document.createElement('p')
+
+        //                 main.innerText = singleData.main
+        //                 content.innerText = singleData.content
+
+        //                 element.appendChild(main)
+        //                 element.appendChild(content)
+        //                 element.classList.add('box')
+        //                 element.classList.add(singleData["line"])
+
+        //                 document.getElementById('container').appendChild(element)
+        //             }
+        //         }
+    </script>
 </body>
 
 </html>
