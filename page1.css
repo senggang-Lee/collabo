@@ -66,17 +66,62 @@ footer {
     margin-bottom: 0px;
 }
 #명소{
+    height: 700px;
     background-color: gray;
+    
 }
 .title{
     background-color: #5abeff;
     font-size:30px;
 }
 .마로니에{
+    position: relative;
     background-color: #64AAFF;
   height:90px;
     width: 90px;
     text-align: center;
     line-height: 575%;
-    
+    bottom:30px;
+    left: 1074px;
 }
+.이화{position: relative;
+    background-color: #64AAFF;
+  height:90px;
+    width: 90px;
+    text-align: center;
+    line-height: 575%;
+    left:239px;
+    top:6px;
+}
+
+    .낙산{position: relative;
+        background-color: #64AAFF;
+      height:90px;
+        width: 90px;
+        text-align: center;
+        line-height: 575%;
+    left:1082px;
+    top:383px;
+}
+
+        .마로니에공원{
+            position: relative;
+            left: 1165px;
+            bottom:350px;
+            
+        }
+        
+        .이화마을{
+            position: relative;
+            bottom:100px;
+            right: 490px;
+        }
+
+        .낙산공원{
+           position: relative;
+           bottom:-150px;
+           left:925px;
+
+        }
+        
+     
