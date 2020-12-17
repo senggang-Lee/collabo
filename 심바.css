@@ -1,0 +1,82 @@
+.제목 {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+main .inner-container {
+    width: 1650px;
+    background-color: gray;
+    height: 750px;
+}
+.배경 {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer {
+    background-color: #5ABEFF;
+    text-align: center;
+    padding: 30px;
+}
+.name {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    right: 40px;
+}
+.img1 {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.img1,.img2,.img3,.img4 {
+    padding-right: 20px;
+    flex-basis: 20%;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+.배경 img {
+    border-radius: 100%;
+    overflow: hidden;
+}
+.image12 {
+    position: relative;
+    left: 350px;
+    bottom: 270px;
+}
+.name1 {
+    position: relative;
+    left: 460px;
+    bottom: 260px;
+}
+.image11 {
+    position: relative;
+    left: 350px;
+    top: 120px;
+}
+.name11 {
+    position: relative;
+    left: 460px;
+    top: 130px;
+}
+.image12 {
+    position: relative;
+    left: 450px;
+    top: 120px;
+}
+.name12 {
+    position: relative;
+    left: 560px;
+    top: 130px;
+}
+.image13 {
+    position: relative;
+    left: 810px;
+    bottom: 154px;
+}
+.name13{
+    position: relative;
+    left: 925px;
+    bottom: 144px;
+}
+
