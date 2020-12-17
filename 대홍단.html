@@ -14,10 +14,6 @@
     }
 
     #위치-사진 {
-        /*margin-left: 120px;
-    width: 1200px;
-    height: 700px;*/
-        max-width: 200%;
         height: auto;
     }
 
@@ -26,61 +22,25 @@
         font-size: 60px;
     }
 
-    #button1 {
-        width: 600px;
-        height: 100px;
-        margin-left: 100px;
-        margin-top: 20px;
+
+    .playlist {
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
     }
 
-    #button2 {
+    .playlist li button {
         width: 600px;
         height: 100px;
-        margin-left: 100px;
-        margin-top: 20px;
     }
 
-    #button3 {
-        width: 600px;
-        height: 100px;
-        margin-left: 100px;
-        margin-top: 20px;
-    }
-
-    #button4 {
-        width: 600px;
-        height: 100px;
-        margin-left: 100px;
-        margin-top: 20px;
-    }
-
-    #button5 {
-        width: 600px;
-        height: 100px;
-        margin-left: 100px;
-        margin-top: 20px;
-    }
-
-    #button6 {
-        width: 600px;
-        height: 100px;
-        margin-left: 100px;
-        margin-top: 20px;
-    }
-
-    #button7 {
-        width: 600px;
-        height: 100px;
-        margin-left: 805px;
-        margin-top: 20px;
-    }
-
-    #button8 {
-        width: 600px;
-        height: 100px;
-        margin-left: 100px;
+    .playlist li {
+        float: left;
+        width: 50%;
+        text-align: center;
         margin-top: 10px;
     }
+
 
     #box {
         margin-left: 500px;
@@ -102,23 +62,35 @@
             <p id="logo1"> 위치 </p>
             <div class="picture">
 
-                <div id="위치-사진"><img src="위치.jpg"></div>
+                <div id="위치-사진"><img src="위치.jpg" width="1450"></div>
             </div>
-
             <p id="logo2"> 주변에서 할 수 있는 것</p>
-            <button type="button" id="button1">놀거리</button>
-            <button type="button" id="button2">먹거리</button><br>
-            <button type="button" id="button3">아직</button>
-            <button type="button" id="button4">아직</button><br>
-            <button type="button" id="button5">아직</button>
-            <button type="button" id="button6">아직</button>
-            <button type="button" id="button7">아직</button>
-            <button type="button" id="button8">아직</button>
-
-
-
-
-
+            <ul class="playlist">
+                <li>
+                    <button type="button" id="button1">놀거리</button>
+                </li>
+                <li>
+                    <button type="button" id="button2">먹거리</button>
+                </li>
+                <li>
+                    <button type="button" id="button3">아직</button>
+                </li>
+                <li>
+                    <button type="button" id="button4">아직</button>
+                </li>
+                <li>
+                    <button type="button" id="button5">아직</button>
+                </li>
+                <li>
+                    <button type="button" id="button6">아직</button>
+                </li>
+                <li>
+                    <button type="button" id="button7">아직</button>
+                </li>
+                <li>
+                    <button type="button" id="button8">아직</button>
+                </li>
+            </ul>
 </body>
 <footer>
     <div class="inner-container2">
